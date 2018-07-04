@@ -28,6 +28,13 @@ class Employee(object):
         """
         print self.eno
         print self.ename
+    def get_employee3(self):
+        """
+        my get_employee3() function
+        :return:
+        """
+        print self.eno
+        print self.ename
 
 
 print dir(Employee)
